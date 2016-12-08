@@ -4,7 +4,7 @@ for(var key in explorerhat){
   global[key] = explorerhat[key]
 }
 
-function test_analog(){
+/*function test_analog(){
   console.log("Testing analog...")
 
   for(x = 1; x < 5; x++){
@@ -17,7 +17,7 @@ function test_analog(){
 function test_input(){
   console.log("Testing inputs...", input.read())
 }
-
+*/
 function test_motor(){
   console.log("Testing motor...")
 
@@ -34,7 +34,7 @@ function test_motor(){
     motor.two.stop()
   },2000)
 }
-
+/*
 function test_light(){
   console.log("Testing lights...")
 
@@ -60,7 +60,7 @@ function test_output(){
     output.off()
   },1000)
 }
-
+*/
 var t = 0
 
 var tests = [
