@@ -13,11 +13,11 @@ for(var key in explorerhat){
     })
   }
 }
-
+*/
 function test_input(){
   console.log("Testing inputs...", input.read())
 }
-*/
+
 function test_motor(){
   console.log("Testing motor...")
 
